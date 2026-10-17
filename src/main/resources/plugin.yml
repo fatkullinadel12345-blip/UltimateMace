@@ -1,0 +1,32 @@
+name: UltimateMace
+version: 1.0.0
+main: ru.itzrealdead.ultimatemace.UltimateMace
+api-version: '1.21'
+author: ItzRealDead
+description: Unique dragon mace, End unlock timer, and admin utilities.
+commands:
+  fly:
+    description: Toggle flight
+    usage: /fly
+  spawn:
+    description: Teleport to world spawn
+    usage: /spawn
+  ivent:
+    description: UltimateMace event controls
+    usage: /ivent [reload|status]
+  tpa:
+    description: Request teleport to a player
+    usage: /tpa <player>
+  tpaccept:
+    description: Accept a teleport request
+    usage: /tpaccept
+  mace:
+    description: UltimateMace tools
+    usage: /mace split
+  seed:
+    description: Show world seed (admin only)
+    usage: /seed
+permissions:
+  ultimatemace.admin:
+    description: UltimateMace administrator permissions
+    default: op

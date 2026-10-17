@@ -1,0 +1,12 @@
+# Admin username. Commands are restricted to this exact Minecraft name.
+admin-name: ItzRealDead
+
+# End opens 72 hours after the plugin's first successful startup.
+end-delay-hours: 72
+
+# Set this to a world name to force the End world to remain inaccessible until unlock.
+# Leave blank to block player entry into any world whose environment is THE_END.
+end-world: ""
+
+# Dragon egg crafting recipe: egg in center surrounded by netherite ingots.
+mace-recipe: true
